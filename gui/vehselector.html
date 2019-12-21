@@ -1,0 +1,41 @@
+<html>
+<head>
+<script>
+    (function (obj) {
+        ue.game = {};
+        ue.game.callevent = function (name, ...args) {
+            if (typeof name != "string") {
+                return;
+            }
+
+            if (args.length == 0) {
+                obj.callevent(name, "")
+            }
+            else {
+                let params = []
+                for (let i = 0; i < args.length; i++) {
+                    params[i] = args[i];
+                }
+                obj.callevent(name, JSON.stringify(params));
+            }
+        };
+    })(ue.game);
+    CallEvent = ue.game.callevent;
+</script>
+<script src="http://asset/vehselector/gui/vehselector.js"></script>
+<script src="http://asset/vehselector/gui/jquery.js"></script>
+<link rel="stylesheet" href="http://asset/vehselector/gui/vehselector.css">
+</head>
+
+<body>
+    <div class="topbar">
+        <div class="form">
+            <input type="text" id="searchVehicle" placeholder="Vehicle name...">
+            <button type="button" onclick="SearchVehicle()">Search</button>
+        </div>
+        <div class="cross">X</div>
+    </div>
+    <div id="vehtable">
+    </div>
+</body>
+</html>

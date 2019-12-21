@@ -1,0 +1,41 @@
+{
+	"author": "Wumbaloo",
+	"version": "1.0",
+	"server_scripts": [
+		"server/vehselector.lua"
+	],
+	"client_scripts": [
+		"client/vehselector.lua"
+	],
+	"files": [
+		"gui/vehselector.html",
+		"gui/vehselector.css",
+		"gui/vehselector.js",
+		"gui/jquery.js",
+		"gui/images/Ambulance.jpg",
+		"gui/images/ArmoredTruck.png",
+		"gui/images/CargoTruck.jpg",
+		"gui/images/CargoTruck1.jpg",
+		"gui/images/Coupe.jpg",
+		"gui/images/GarbageTruck.jpg",
+		"gui/images/HeavyBlack.jpg",
+		"gui/images/HeavyDesert.jpg",
+		"gui/images/HeavyRescue.jpg",
+		"gui/images/HeavyTactical.jpg",
+		"gui/images/Helicopter.jpg",
+		"gui/images/HelicopterOneColor.jpg",
+		"gui/images/LightCargo01.jpg",
+		"gui/images/LightCargo02.jpg",
+		"gui/images/Military01.jpg",
+		"gui/images/Nascar.jpg",
+		"gui/images/Rally.jpg",
+		"gui/images/Sedan.jpg",
+		"gui/images/Sedan2.jpg",
+		"gui/images/Sedan3.jpg",
+		"gui/images/SedanClassic.png",
+		"gui/images/SedanOneColor.jpg",
+		"gui/images/SedanPolice.jpg",
+		"gui/images/SedanTaxi.jpg",
+		"gui/images/Truck.jpg"
+	]
+}
